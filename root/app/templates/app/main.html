@@ -1,0 +1,30 @@
+{% load static %}
+{% csrf_token %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAIN</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+	<link rel="icon" href="data:;base64,=">
+
+</head>
+<body>
+	<div id="app">
+		<div class='dbicontainer'>
+				<div id="sort-form">
+					<h6>Sort Risk Types By:</h6>
+					<button v-on:click="Endpointall">All</button>
+					<button v-on:click="Endpointautomobile">Automobile</button>
+					<button v-on:click="Endpointtradingcards">Trading Cards</button>
+					<button id="linkbutton"><a href="https://h1rrlt221e.execute-api.us-west-2.amazonaws.com/dev/form">Enter a new item to the database!</a></button>
+				</div>
+			<div v-html="dataTemplate(info)"></div>
+			</div>
+		</div>
+	<script type="text/javascript" src="{% static 'app/js/app.js' %}"></script>
+
+
+</body>
+</html>

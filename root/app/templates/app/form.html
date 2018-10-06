@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+
+</div>
+</head>
+<body>
+	<div class="createform">
+		<h2>Enter an Item into the Database!</h2>
+		<form class="iform" method='POST' action="">
+			{% csrf_token %}
+			{{form}}
+			<input type="submit" value="Save to the Database! I Don't Work Yet!">
+		</form>
+	</div>
+</body>
+</html>
+
