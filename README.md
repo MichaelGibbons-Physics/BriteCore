@@ -14,13 +14,13 @@ HOW TO DEPLOY THIS PROJECT:
 
 The app is fully scripted! Please just click the following link to see the project!
 
-####https://h1rrlt221e.execute-api.us-west-2.amazonaws.com/dev/main/
+####https://h1rrlt221e.execute-api.us-west-2.amazonaws.com/dev/main/ ###
 
 ---
 
 ---
 
-#Hello! Thank you so much for your time.
+#Hello! Thank you so much for your time.#
 
 My name is Michael Gibbons and I am applying for the full stack developer position at BriteCore. In order to get to this project I decoded the ascii array, then simply copy-pasted the Fernet encrption code into a python file (though the code goes off the screen you can still copy-paste) then fixed the typos to get to this application project. 
 
