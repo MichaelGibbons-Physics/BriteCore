@@ -14,23 +14,23 @@ HOW TO DEPLOY THIS PROJECT:
 
 The app is fully scripted! Please just click the following link to see the project!
 
-####https://h1rrlt221e.execute-api.us-west-2.amazonaws.com/dev/main/ ###
+#### https://h1rrlt221e.execute-api.us-west-2.amazonaws.com/dev/main/ ###
 
 ---
 
 ---
 
-#Hello! Thank you so much for your time.#
+# Hello! Thank you so much for your time.
 
 My name is Michael Gibbons and I am applying for the full stack developer position at BriteCore. In order to get to this project I decoded the ascii array, then simply copy-pasted the Fernet encrption code into a python file (though the code goes off the screen you can still copy-paste) then fixed the typos to get to this application project. 
 
 ---
 
-##Insurance Database Managment Project
+## Insurance Database Managment Project
 
 This project is broken down into 3 distict sections. The Data section, backend, and frontend. Therefore this readme file is broken down into those 3 sections.
 
-###Data
+### Data
 
 The purpose of this section is to make a generic data structure which insurers can use to keep track of an arbitrarily distict item/contact. The steps taken to complete this were as follows:
 
@@ -46,7 +46,7 @@ The purpose of this section is to make a generic data structure which insurers c
 
 This completes the actual data structure, using the data structure moves us into the backend.
 
-###Backend
+### Backend
 
 The purpose of this section is to create a REST API that will serialize the data from our insurance contract database into JSON. This allows for easy communication between applications.
 The steps taken to complete this were as follows:
@@ -64,7 +64,7 @@ This completes the API. Now by going to the endpoints one should be able to quer
 
 
 
-###Frontend
+### Frontend
 
 The purpose of this section is to gather data from the backend, and present it to the user in a friendly format.
 
@@ -73,11 +73,11 @@ A data template function was made in order to generate a form to display the dat
 
 A model form was then created in order to let the user input custom data, taking note to add the crsf token to prevent malicious interception. Once the user inputs valid information pertinant to the Djengo model, the user can submit the form to the database. At which point it is added to the "all" endpoint.
 
-####css
+#### css
 
 No css framework was used, instead I wrote custom css for this application. But I could easily adapt to whatever css framework is commonly used.
 
-##Hosting
+## Hosting
 
 The app is hosted using AWS using an S3 bucket to serve the static files and zappa to deploy the Django project. In order to host a Django app using AWS the following steps must be completed,
 
